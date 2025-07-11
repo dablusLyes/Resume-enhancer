@@ -1,0 +1,38 @@
+À propos de l’offre d’emploi
+
+Cegid est un leader européen des solutions de gestion cloud pour les professionnels des métiers de la finance (trésorerie, fiscalité, ERP), des ressources humaines (paie, gestion des talents), de l’Expertise Comptable, du Retail et de l’entrepreneuriat. Dans un monde en constante évolution, nos 5 000 collaborateurs contribuent à ouvrir le champ des possibles en accompagnant nos 750 000 clients à réaliser leurs projets et leurs ambitions grâce à des solutions utiles et innovantes.
+
+"Ensemble, ouvrir les possibles" est le principe qui guide nos actions. Il reflète notre identité, notre approche et notre motivation pour servir nos clients. Grâce à cela, nous pouvons affirmer que nous travaillons chaque jour pour façonner votre avenir, le nôtre et celui de nos clients.
+
+Depuis des années, nous inventons des solutions qui révolutionnent la manière de travailler de nos clients, dans une perspective de performance durable.
+
+Basé sur notre site de Bordeaux, vous rejoignez une équipe dynamique en charge du développement d’applicationsweb de gestion commerciale et bancaire, conçues pour les très petites entreprises.Le projet allie simplicité d’usage, ergonomie et innovations. Certaines fonctionnalitésintègrent de l’intelligence artificielle générative (IAGen) pour enrichir l’expérienceutilisateur.
+
+Votre objectif en tant que Développeur Frontend ? 
+
+Participer activement au développement de l’application : de la conception à la mise en production, en passant par les tests et le monitoring.
+
+En Tant Que Développeur Frontend, Vous Allez
+
+
+Concevoir et implémenter de nouvelles fonctionnalités en React avec le framework Next.js,
+Identifier, corriger les bugs et améliorer les performances de l’interface utilisateur,
+Écrire un code clair, modulaire, maintenable et couvert par des tests,
+Surveiller et analyser la qualité applicative à l’aide d’outils de monitoring,
+Contribuer activement aux rituels agiles : Daily Stand-up, Sprint Planning, Rétrospective,
+Gérer et prioriser les tâches via Jira en coordination avec l’équipe produit et technique.
+Vous justifiez d’une expérience significative de 3 à 5 ans en développement frontend, notamment avec React et Next.js,
+Vous appliquez les principes du clean code et accordez une grande importance à la performance,
+Vous possédez une bonne connaissance des tests automatisés (tests unitaires, d’intégration) et de leur rôle dans la qualité logicielle,
+Vous avez une réelle sensibilité UX/UI et un goût pour l’innovation technologique,
+Vous êtes curieux et vous vous intéressez aux usages de l’IA générative,
+Vous faites preuve d’autonomie, de rigueur et aimez travailler en équipe.
+
+
+Au-delà des compétences métiers, nous recherchons des talents qui souhaitent exprimer leur potentiel et ouvrir les possibles avec nous ! C'est avant tout votre curiosité, votre esprit d'équipe et votre sens du service client qui feront la différence.
+
+
+
+Compétences et expérience souhaitées
+
+React, Next.js, UX/UI, IA

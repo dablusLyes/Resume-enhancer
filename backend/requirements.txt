@@ -1,0 +1,8 @@
+flask
+flask-cors
+pdf2image
+pillow
+reportlab
+PyPDF2
+scikit-learn
+sentence-transformers

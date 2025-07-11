@@ -1,0 +1,85 @@
+À propos de l’offre d’emploi
+
+PMU est une Tech Company spécialisée en betting & gaming (hippique, sport, poker) qui rassemble plus de 1 100 talents (dont 320 en région) passionnés dans un univers captivant aux forts enjeux notamment technologiques.
+
+Quelques Chiffres Clés Pour Illustrer L'activité
+
+
+ 1er opérateur de paris hippiques en Europe
+ 10 milliards d'enjeux
+ 3,2 millions de clients
+ 14 000 points de vente en France
+ Plus de 110 partenaires dans 50 pays à l'international
+
+
+Mais ce n'est pas tout, PMU, ce sont également des valeurs fortes partagées par l'ensemble des équipes.
+
+Vous avez envie d'en savoir plus ? Retrouvez-nous sur Welcome to the jungle
+
+Dans un contexte de transformation et sur un marché très spécifique et compétitif, le PMU a mis en place depuis 2021 une méthodologie d'agilité à l'échelle (SAFe) afin d'améliorer ses produits et de créer des offres toujours plus innovantes.
+
+Au sein de la Direction Opération et Système d'Information dans une équipe agile d'un train SAFe en charge des solutions à destination de nos Clients et de nos Partenaires, nous recherchons notre futur(e) Développeur(se) Front-End.
+
+Vous travaillez en collaboration avec les équipes de la DOSI, du Marketing, et votre propre équipe projet.
+
+Votre Terrain De Jeu
+
+
+ Participer à l'amélioration continue de l'interface du site pmu.fr (desktop) et de nos applications mobile (iOS et Android),
+ Concevoir, réaliser et intégrer des fonctionnalités sur les produits du patrimoine PMU (applications desktop et mobile), tout en veillant à leur maintien en condition opérationnelle,
+ Participer aux différents rituels agiles (Daily, sprint, PI Planning).
+
+
+Compétences Techniques
+
+
+ Site de type Single Page Application, interrogeant l'API Back en Rest/JSON
+ React, redux, React native
+ Javascript, ES6
+ Jest, TDD, React-testing-librairy, detox
+ HTML 5, CSS 3, Sass
+ Npm, webpack, babel
+ PWA
+ Git, Git-lab ci, AWS (cloudFront, S3, Lambda, EC2)
+ Enjeux multi-navigateurs, responsive/adaptative et temps de réponse des pages
+
+
+Le monde du gaming et du betting vous anime ? Et si c'était vous notre candidat idéal ?
+
+
+ De formation ingénieure avec une expérience significative d'au moins 4 ans en développement front-end
+ Capacité à gérer à plusieurs projets de développement en mode agile (Scrum, Safe, Kanban, etc...)
+ Bonne maîtrise des algorithmes complexes, des problématiques de performance, de sécurité et de haute disponibilité
+ Capacité à travailler en équipe et à communiquer avec chaque membre (partage et développement de connaissances)
+
+
+Ce Que Nous Vous Offrons
+
+
+ Télétravail autorisé : 3 jours par semaine
+ Ticket Restaurant : 11,50euros dont 6,90euros pris en charge
+ Prise en charge à hauteur de 65% de l'abonnement de transports
+ Un?montant forfaitaire pour un achat lié à la mobilité douce (vélo, trottinette)
+ Epargne salariale : Intéressement, PEE, PERCOL, CET
+ Nombre de jours de repos attractif (8 semaines)
+ Mutuelle : gratuité pour l'adhérent
+ Avantages CSE (multiples subventions)
+ Bien-être au travail : Moka care (sessions de coaching, programmes self-care : articles, audio et vidéo)
+ Participation financière à des abonnements sur l'application Gymlib
+ Accompagnement à la parentalité avec l'application May Santé
+ Prime de Cooptation
+ Possibilité d'accéder au dispositif "?vis ma vie?"
+ Dispositif " Action Logement "
+
+
+Et sans oublier, des soirées, évènements, séminaires, et teambulding ??
+
+Informations Complémentaires
+
+
+ Localisation : Paris 17 Porte de Clichy (RER C, Lignes 13 et 14)
+ Début contrat : Immédiatement
+ Statut : Cadre
+
+
+25874492-57915
