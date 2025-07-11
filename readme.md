@@ -1,6 +1,6 @@
 # CVIMG: PDF Resume & LinkedIn Job Description Semantic Analyzer
 
-This project lets you compare your PDF resume to LinkedIn job descriptions using semantic similarity, and overlay job descriptions invisibly onto your resume PDF. It includes a browser extension (side panel) and a Python backend.
+This project lets you compare your PDF resume to LinkedIn job descriptions using semantic similarity, and overlay job descriptions invisibly onto your resume PDF. It includes a browser (**Google Chrome**) extension (side panel) and a Python backend.
 
 ---
 
