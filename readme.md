@@ -41,11 +41,11 @@ This project lets you compare your PDF resume to LinkedIn job descriptions using
 
 ---
 
-## Frontend (Chrome Extension) Setup
+## Extension (Chrome Extension) Setup
 
 1. **Open Chrome and go to** `chrome://extensions`
 2. **Enable "Developer mode"**
-3. **Click "Load unpacked" and select the `frontend` folder**
+3. **Click "Load unpacked" and select the `Extension` folder**
 
    - This loads the extension with the side panel.
 
@@ -87,7 +87,7 @@ backend/
   process.py
   uploads/
   outputs/
-frontend/
+extension/
   sidepanel.html
   sidepanel.js
   content-script.js
