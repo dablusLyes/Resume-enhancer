@@ -1,0 +1,35 @@
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+env/
+venv/
+ENV/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backend uploads and outputs
+backend/uploads/
+backend/outputs/
+
+# Extension build artifacts (if any)
+extension/dist/
+extension/node_modules/
+
+# PDF and text files (if not needed in repo)
+*.pdf
+*.txt
+
+# Logs
+*.log
+
+# Misc
+*.bak

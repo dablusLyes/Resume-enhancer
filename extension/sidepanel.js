@@ -219,7 +219,7 @@ async function runSemanticEvaluation() {
 
 		// Create form data
 		const formData = new FormData();
-		formData.append("cv_file", selectedFiles.pdf);
+		formData.append("resume_file", selectedFiles.pdf);
 
 		// Create a blob for the job description text
 		const jobDescriptionBlob = new Blob(
@@ -235,7 +235,7 @@ async function runSemanticEvaluation() {
 		);
 
 		// Send to server
-		const response = await fetch(`${SERVER_URL}/evaluate-semantic`, {
+		const response = await fetch(`${SERVER_URL}/evaluate-ats`, {
 			method: "POST",
 			body: formData,
 		});
@@ -281,6 +281,7 @@ function showEvaluationStatus(message, type) {
 
 function showEvaluationResult(result) {
 	const { similarity_score, interpretation, evaluation_results } = result;
+	console.log(evaluation_results);
 
 	// Create evaluation result display
 	let evalStatusDiv = document.getElementById("evaluation-status");
@@ -344,21 +345,6 @@ function showEvaluationResult(result) {
 				<div class="interpretation-recommendation">${
 					interpretation.recommendation
 				}</div>
-			</div>
-			<div class="detailed-metrics">
-				<div class="metric">
-					<span class="metric-label">Word Overlap:</span>
-					<span class="metric-value">${Math.round(
-						(evaluation_results.basic?.word_overlap || 0) * 100,
-					)}%</span>
-				</div>
-				<div class="metric">
-					<span class="metric-label">Length Similarity:</span>
-					<span class="metric-value">${Math.round(
-						(evaluation_results.basic?.length_similarity || 0) *
-							100,
-					)}%</span>
-				</div>
 			</div>
 		</div>
 	`;
