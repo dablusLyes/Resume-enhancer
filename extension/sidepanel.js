@@ -182,6 +182,7 @@ function updateJobDescriptionDisplay(content) {
 			${content.length} characters extracted
 		</div>
 	`;
+	checkAndRunSemanticEvaluation();
 }
 
 function resetJobDescriptionButton() {

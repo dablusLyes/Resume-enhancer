@@ -371,7 +371,7 @@ if __name__ == "__main__":
     fichier_offre = "offre_emploi.txt"
     
     resultats = evaluer_correspondance_cv_offre(fichier_cv, fichier_offre)
-    
+        
     print("=== RÉSULTATS DE CORRESPONDANCE ATS ===")
     print(f"Score Global: {resultats['score_global']:.2%}")
     print(f"Recommandation: {resultats['recommandation']}")
