@@ -6,3 +6,6 @@ reportlab
 PyPDF2
 scikit-learn
 sentence-transformers
+numpy
+nltk
+spacy

@@ -1,22 +1,22 @@
 # CVIMG: PDF Resume & LinkedIn Job Description Semantic Analyzer
 
-This project lets you compare your PDF resume to LinkedIn job descriptions using semantic similarity, and overlay job descriptions invisibly onto your resume PDF. It includes a browser (**Google Chrome**) extension (side panel) and a Python backend.
+CVIMG helps you compare your PDF resume to LinkedIn job descriptions using advanced semantic similarity, and overlays job descriptions invisibly onto your resume PDF. It includes a Chrome extension (side panel) and a Python backend.
 
 ---
 
 ## Features
 
 - **Chrome Extension Side Panel**: Select your PDF resume, extract job descriptions from LinkedIn job pages, and view compatibility scores.
-- **Semantic Evaluation**: Uses TF-IDF and Sentence Transformers for advanced semantic similarity.
+- **Semantic Evaluation**: Uses TF-IDF and Sentence Transformers for advanced semantic similarity. The compatibility score and interpretation are based on the advanced semantic similarity.
 - **PDF Processing**: Overlays job description text invisibly onto your resume PDF.
-- **Download & Cleanup**: Download processed PDFs and clean up server files.
+- **Download & Cleanup**: Download processed PDFs and clean up server files automatically or manually.
 
 ---
 
 ## Prerequisites
 
 - **Python 3.10+**
-- **Node.js & Chrome (for extension)**
+- **Node.js** (for extension development, if needed)
 - **pip** (Python package manager)
 - **Google Chrome** (for extension usage)
 
@@ -27,7 +27,7 @@ This project lets you compare your PDF resume to LinkedIn job descriptions using
 1. **Install Python dependencies:**
 
    ```bash
-   pip install flask flask-cors pdf2image pillow reportlab PyPDF2 scikit-learn sentence-transformers
+   pip install -r backend/requirements.txt
    ```
 
 2. **Start the backend server:**
@@ -41,11 +41,11 @@ This project lets you compare your PDF resume to LinkedIn job descriptions using
 
 ---
 
-## Extension (Chrome Extension) Setup
+## Chrome Extension Setup
 
 1. **Open Chrome and go to** `chrome://extensions`
 2. **Enable "Developer mode"**
-3. **Click "Load unpacked" and select the `Extension` folder**
+3. **Click "Load unpacked" and select the `extension` folder**
 
    - This loads the extension with the side panel.
 
@@ -62,7 +62,7 @@ This project lets you compare your PDF resume to LinkedIn job descriptions using
 4. **Select your PDF resume.**
 5. **Click "Extract Job Description"** to scrape the job description from the current LinkedIn job page.
 6. **Click "Process PDF"** to analyze compatibility and overlay the job description onto your resume.
-7. **View the semantic compatibility score and download the processed PDF.**
+7. **View the advanced semantic compatibility score and download the processed PDF.**
 
 ---
 
@@ -75,7 +75,7 @@ This project lets you compare your PDF resume to LinkedIn job descriptions using
 - **Service Worker Inactive?**  
   Reload the extension in Chrome.
 - **Dependencies Missing?**  
-  Install all Python packages listed above.
+  Install all Python packages listed in `backend/requirements.txt`.
 
 ---
 
@@ -85,6 +85,7 @@ This project lets you compare your PDF resume to LinkedIn job descriptions using
 backend/
   server.py
   process.py
+  requirements.txt
   uploads/
   outputs/
 extension/
@@ -93,15 +94,17 @@ extension/
   content-script.js
   manifest.json
   background.js
+  icons/
 ```
 
 ---
 
 ## Development Notes
 
-- **PDFs and job descriptions are temporarily stored in `backend/uploads/` and `backend/outputs/`.**
+- **PDFs and job descriptions are temporarily stored in `backend/uploads/` and processed PDFs in `backend/outputs/`.**
 - **Processed PDFs are available for download via the extension.**
 - **Cleanup is automatic after download or can be triggered manually.**
+- **Semantic evaluation now returns the advanced similarity score and interpretation.**
 
 ---
 
