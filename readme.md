@@ -1,6 +1,6 @@
 # CVIMG: PDF Resume & LinkedIn Job Description Semantic Analyzer
 
-CVIMG helps you compare your PDF resume to LinkedIn job descriptions using advanced semantic similarity, and overlays job descriptions invisibly onto your resume PDF. It includes a Chrome extension (side panel) and a Python backend.
+CVIMG lets you compare your PDF resume to LinkedIn job descriptions using advanced semantic similarity, and overlays job descriptions invisibly onto your resume PDF. It includes a Chrome extension (side panel) and a Python backend.
 
 ---
 
@@ -16,9 +16,10 @@ CVIMG helps you compare your PDF resume to LinkedIn job descriptions using advan
 ## Prerequisites
 
 - **Python 3.10+**
-- **Node.js** (for extension development, if needed)
 - **pip** (Python package manager)
 - **Google Chrome** (for extension usage)
+- **Node.js** (only if you want to develop/extend the extension)
+- **Docker** (optional, for containerized backend)
 
 ---
 
@@ -38,6 +39,16 @@ CVIMG helps you compare your PDF resume to LinkedIn job descriptions using advan
    ```
 
    The server runs at [http://localhost:5000](http://localhost:5000).
+
+### Docker (Optional)
+
+You can run the backend in a container:
+
+```bash
+cd backend
+docker build -t cvimg-backend .
+docker run -p 5000:5000 cvimg-backend
+```
 
 ---
 
@@ -69,7 +80,7 @@ CVIMG helps you compare your PDF resume to LinkedIn job descriptions using advan
 ## Troubleshooting
 
 - **Server Offline?**  
-  Make sure the backend server is running (`python server.py`).
+  Make sure the backend server is running (`python server.py` or Docker).
 - **Job Description Not Extracted?**  
   Ensure you're on a LinkedIn job page and refresh if needed.
 - **Service Worker Inactive?**  
